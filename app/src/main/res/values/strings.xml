@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JogoDado</string>
+    <string name="rolar">Rolar</string>
+    <string name="reset">Reset</string>
+</resources>
