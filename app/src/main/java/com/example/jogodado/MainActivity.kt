@@ -88,10 +88,11 @@ fun JogoDado(modifier: Modifier = Modifier){
             Text(stringResource(R.string.rolar))
         }
         Spacer(modifier = Modifier.height(20.dp))
+        Text(text = "Total: " + total)
+        Spacer(modifier = Modifier.height(20.dp))
         Button(onClick = {total = 0 }){
             Text(stringResource(R.string.reset))
         }
-        Text(text = "Total: " + total)
     }
         
     
